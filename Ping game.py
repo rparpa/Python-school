@@ -21,7 +21,7 @@ def choixcase():
     n = eval(input("Saisissez le numero de la ligne : "))
     m = eval(input("Saisissez le numero de la colonne : "))
 
-    if n > x:
+    if n > x or m > y:
         return choixcase()
     else:
         for a in range(3):
